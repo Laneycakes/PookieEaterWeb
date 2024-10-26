@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+    body{background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;}
+    
+    .main-content{margin-bottom: 500px;
+                margin-top: 200px;
+                margin-left: 20%;
+                display: flex;
+                position: absolute;
+                top: 80;
+                left: 0;
+                right: 0;
+                /* height: 50px;
+                width: 100%; */
+                justify-content: left;
+                align-items: left;}
+    h1{color: #EF3A67;
+        font-family: RobotoSlab-Bold;
+        font-size: 75px;}
+    
+    .highlight a{color: #BA214E;
+                font-weight: bold;}
+    
+    .contentBody{font-family: RobotoSlab;
+                font-size: 20px;
+                text-align: justify;
+                text-justify: inter-word;}
+
+    footer{top: 6900;}
+}
+
+@media screen and (min-width: 768px) {
+    body{background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;}
+
+.main-content{margin-bottom: 500px;
+                margin-top: 400px;
+                margin-left: 20%;
+                display: flex;
+                position: absolute;
+                top: 80;
+                left: 0;
+                right: 0;
+                /* height: 50px;
+                width: 100%; */
+                justify-content: left;
+                align-items: left;}
+
+h1{color: #EF3A67;
+    font-family: RobotoSlab-Bold;
+    font-size: 75px;}
+
+.highlight a{color: #BA214E;
+            font-weight: bold;}
+
+.contentBody{font-family: RobotoSlab;
+            font-size: 60px;
+            text-align: justify;
+            text-justify: inter-word;}
+
+.contactUs{background: rgba(186, 33, 78, 0.2);
+        text-align: center;}
+
+.hauMap{border: black solid 2px;
+        height: 500px;
+        margin: auto;}
+
+.addressUs{font-family: RobotoSlab;
+            font-size: 45px;
+            color: #BA214E;}
+
+.mailTo{color: #BA214E;}
+
+.openHours{align-content: center;
+            margin: auto;}
+
+.table{font-family: Roboto;
+        font-size: 36px;}
+
+footer{top: 9900;}
+}

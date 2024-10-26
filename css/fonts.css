@@ -1,0 +1,50 @@
+@font-face {
+    font-family: RobotoSlab-Black;
+    src: url(../fonts/RobotoSlab-Black.ttf);
+}
+
+@font-face {
+    font-family: RobotoSlab-Bold;
+    src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoSerif-Bold;
+    src: url(../fonts/RobotoSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoSerif;
+    src: url(../fonts/RobotoSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cardo;
+    src: url(../fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+    font-family: CardoBold;
+    src: url(../fonts/Cardo-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: SuezOne;
+    src: url(../fonts/SuezOne-Regular.ttf);
+}

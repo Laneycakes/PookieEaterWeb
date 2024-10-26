@@ -1,0 +1,374 @@
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #ffffff; /* HOME PAGE */
+    overflow-x: hidden;
+    /* background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%) scroll;  About us & T&C */
+  }
+
+  header {
+    background: url(../images/header_updated3.png);
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .background-pink {
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 39.5%,
+      rgba(251, 230, 235, 0.412698) 47%,
+      #f6c2cf 58.5%
+    );
+  }
+  .headerImage {
+    /* width: 1920px; */
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-right: -45px;
+    position: absolute;
+    top: -11px;
+    right: 58px;
+
+    /* logo(text) */
+  }
+
+  .logo-header {
+    height: 90px;
+    top: 50px;
+    margin-bottom: -105px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+
+    /* logo(image) */
+  }
+
+
+  .hamburgerIcon {
+    height: 30px;  /* Adjust the size as needed */
+    position: absolute;
+    top: 65px;    /* Positioning adjustment */
+    right: 20px;  /* Positioning adjustment */
+    cursor: pointer;
+}
+
+/* Adjust NavBurgerLinks Styling for Mobile */
+.navBurgerLinks {
+    background-color: #f6c2cf;
+    list-style-type: none;
+    font-family: RobotoSlab;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    padding-top: 60px;
+    display: none;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;  /* Ensure it stays above other content */
+}
+
+/* Display Nav Menu when Active */
+.navBurgerLinks.active {
+    display: flex;
+    opacity: 1;
+    transform: translateX(0);
+    flex-direction: column;
+}
+
+/* Hamburger X Icon Styling */
+.hamburgerXIcon {
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;  /* Hide by default */
+    cursor: pointer;
+}
+
+.navBurgerLinks.active .hamburgerXIcon {
+    display: block;  /* Show only when menu is active */
+}
+
+/* Ensure Hamburger Icon is Hidden when X Icon is Visible */
+.navBurgerLinks.active ~ .hamburgerIcon {
+    display: none;
+}
+  footer {
+    top: 6000px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #f6c2cf;
+    position: absolute;
+    /* width: 1900px; */
+    height: 240px;
+    left: 0px;
+    right: 0px;
+    color: black;
+  }
+
+  .center-footer {
+    display: flex;
+    position: absolute;
+    top: 100;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .socLinks {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .rightLinks {
+    display: none;
+    margin-top: 270px;
+    margin-right: -60px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  .navLinks li {
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+    font-family: RobotoSlab-Bold;
+    color: #ba214e;
+    padding: 20px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1919px) {
+  body {
+    background-color: #ffffff; /* HOME PAGE */
+    overflow-x: hidden;
+    /* background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%) scroll;  About us & T&C */
+  }
+
+  header {
+    background: url(../images/header_updated3.png);
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .background-pink {
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 39.5%,
+      rgba(251, 230, 235, 0.412698) 47%,
+      #f6c2cf 58.5%
+    );
+  }
+  .headerImage {
+    /* width: 1920px; */
+    margin-top: -95px;
+    margin-right: 55px;
+    position: absolute;
+    top: 4px;
+    right: 16px;
+    /* logo(text) */
+  }
+
+  .navburgerLinks{
+    display: none;
+  }
+
+  .logo-header {
+    height: 200px;
+    margin-bottom: -125px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    left: 54px;
+
+    /* logo(image) */
+  }
+
+  footer {
+    top: 4300;
+    left: 0;
+    bottom: 0;
+    background-color: #f6c2cf;
+    position: absolute;
+    /* width: 1900px; */
+    height: 240px;
+    left: 0px;
+    right: 0px;
+    color: black;
+  }
+
+  .center-footer {
+    display: flex;
+    position: absolute;
+    top: 100;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .socLinks {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .rightLinks {
+    margin-top: 280px;
+    margin-right: 5px;
+    position: absolute;
+    top: 4px;
+    right: 16px;
+  }
+  .navLinks li {
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+    font-family: RobotoSlab-Bold;
+    color: #ba214e;
+    padding: 20px;
+    font-size: 46px;
+  }
+
+  .hamburgerIcon {
+    display: none;
+  }
+
+  .hamburgerXIcon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  body {
+    background-color: #ffffff; /* HOME PAGE */
+    overflow-x: hidden;
+    /* background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%) scroll;  About us & T&C */
+  }
+
+  .hamburgerIcon {
+    display: none;
+  }
+
+  .hamburgerXIcon {
+    display: none;
+  }
+
+  header {
+    background: url(../images/header_updated3.png);
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .background-pink {
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 39.5%,
+      rgba(251, 230, 235, 0.412698) 47%,
+      #f6c2cf 58.5%
+    );
+  }
+
+  .headerImage {
+    /* width: 1920px; */
+    margin-top: -95px;
+    margin-right: 55px;
+    position: absolute;
+    top: 4px;
+    right: 16px;
+    /* logo(text) */
+  }
+
+  .logo-header {
+    height: 400px;
+    margin-bottom: -175px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    left: 56px;
+
+    /* logo(image) */
+  }
+
+  .navburgerLinks{
+    display: none;
+  }
+  footer {
+    position: fixed;
+    top: 3200;
+    left: 0;
+    bottom: 0;
+    background-color: #f6c2cf;
+    position: absolute;
+    /* width: 1900px; */
+    height: 240px;
+    left: 0px;
+    right: 0px;
+    color: black;
+  }
+
+  .center-footer {
+    display: flex;
+    position: absolute;
+    top: 100;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .socLinks {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .rightLinks {
+    margin-top: 250px;
+    margin-right: 55px;
+    position: absolute;
+    top: 4px;
+    right: 16px;
+  }
+  .navLinks li {
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+    font-family: RobotoSlab-Bold;
+    color: #ba214e;
+    padding: 35px;
+    font-size: 86px;
+  }
+}

@@ -1,0 +1,190 @@
+@media screen and (max-width: 767px) {
+  .main-video{display: flex;
+              position: absolute;
+              height: 200px;
+              width: 100%;
+              justify-content: center;
+              align-items: center;}
+  
+  .navbar {background-color: #FFF8E7;
+          transition: background-color 0.3s ease;
+          width: 100%;}
+
+  .main-body {margin-bottom: 500px;
+              margin-top: 200px;
+              margin-left: auto;
+              display: flex;
+              position: absolute;
+              top: 80;
+              left: 0;
+              right: 0;
+              /* height: 50px;
+              width: 100%; */
+              justify-content: center;
+              align-items: center;}
+
+  .main-content {margin-bottom: 500px;
+                margin-top: 500px;
+                margin-left: 2%;
+                display: flex;
+                position: absolute;
+                top: 50;
+                left: 0;
+                right: 0;
+                /* height: 50px;
+                width: 100%; */
+                justify-content: left;
+                align-items: left;}
+/*
+  .main-content.row{}
+*/ stop here
+  h1 {margin-bottom: 60px;
+      font-size: 10%;}
+
+  .cookieImage {margin: 10px;
+                width: 10px;}
+
+  h2.cookieDesc {text-align: center;
+                font-family: SuezOne;
+                color: #ba214e;
+                font-size: 30px;}
+
+  .cookieDesc {
+    text-align: center;
+    font-family: RobotoBold;
+    color: black;
+    font-size: 25px;
+  }
+
+  .indexDescSpan {
+    font-family: RobotoSlab-Bold;
+  }
+  .indexDescSpan2 {
+    color: #e1144f;
+  }
+  .indexDesc {
+    margin-top: 40px;
+    font-family: RobotoSlab;
+    font-size: 19px;
+    width: 98%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+  }
+  footer {
+    position: fixed;
+    top: 3400 !important;
+    left: 0;
+    bottom: 0;
+    background-color: #f6c2cf;
+    position: absolute;
+    /* width: 1900px; */
+    height: 240px;
+    left: 0px;
+    right: 0px;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px)  {
+  /* .main-video{
+    margin-top: 500px;
+    margin-left: 31%;
+    
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+  .main-body {
+    margin-bottom: 500px;
+    margin-top: 400px;
+    margin-left: auto;
+
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    /* height: 50px;
+    width: 100%; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content {
+    margin-bottom: 500px;
+    margin-top: 1000px;
+    margin-left: 20%;
+
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    /* height: 50px;
+    width: 100%; */
+    justify-content: left;
+    align-items: left;
+  }
+
+  h1 {
+    margin-bottom: 60px;
+  }
+  .cookieImage {
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+  }
+
+  h2.cookieDesc {
+    text-align: center;
+    font-family: SuezOne;
+    color: #ba214e;
+    font-size: 50px;
+  }
+  .cookieDesc {
+    text-align: center;
+    font-family: RobotoBold;
+    color: black;
+    font-size: 25px;
+  }
+
+  .indexDescSpan {
+    font-family: RobotoSlab-Bold;
+  }
+  .indexDescSpan2 {
+    color: #e1144f;
+  }
+  .indexDesc {
+    margin-top: 40px;
+    font-family: RobotoSlab;
+    font-size: 52px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+  }
+
+  footer {
+    position: fixed;
+    top: 3500 !important;
+    left: 0;
+    bottom: 0;
+    background-color: #f6c2cf;
+    position: absolute;
+    /* width: 1900px; */
+    height: 240px;
+    left: 0px;
+    right: 0px;
+    color: black;
+  }
+  
+}
+
